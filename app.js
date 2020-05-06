@@ -67,7 +67,7 @@ const tvShows = [
 
   - Exiba no console uma lista dos nomes dos jogos do array abaixo;
   - A lista deve ter a formatação exemplificada abaixo do array, considerando 
-    inclusive o tab e o traço antes de cada nome.
+    inclusive o traço e o espaço antes de cada nome.
   
   Dica: para quebrar linha, você pode usar dentro da string o caractere 
   especial \n.
