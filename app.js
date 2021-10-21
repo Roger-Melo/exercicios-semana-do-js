@@ -27,8 +27,8 @@ const numbers = [5, 7, 3]
 /*
   04
 
-  - Utilizando o array abaixo, gere um novo array com apenas os filmes lançados 
-    antes do ano 2000;
+  - Utilizando o array abaixo, gere um novo array com apenas os filmes 
+    lançados antes do ano 2000;
   - Exiba o novo array no console.
 */
 
