@@ -86,7 +86,7 @@ const cart = [
 ]
 
 /*
-  - Nome 1
-  - Nome 2
-  - Nome 3
+- Nome 1
+- Nome 2
+- Nome 3
 */
