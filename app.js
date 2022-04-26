@@ -22,6 +22,8 @@ const crazyNumbers = [937, 5, 395, 402, 501, 333, 502, 781, 3, 691]
 
   - Gere um novo array com cada um dos números abaixo elevados ao quadrado e 
     exiba o novo array no console.
+  
+  Dica: pesquise por exponentiation operator (**).
 */
 
 const numbers = [5, 7, 3]
