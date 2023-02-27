@@ -89,4 +89,15 @@ const cart = [
 - Nome 1
 - Nome 2
 - Nome 3
+
+Obs: 👆🏻 o objetivo do exercício é gerar a string acima. 
+
+A string deve ter exatamente a formatação acima (com traço, quebra de linha, 
+e cada item em uma linha). 
+
+console.log é apenas uma forma de você visualizar a string que você está 
+gerando. Não é o objetivo final do exercício.
+
+O objetivo final NÃO É executar um console.log para cada nome. Mas sim gerar 
+uma única string que contém uma lista exatamente como o exemplo acima. 
 */
