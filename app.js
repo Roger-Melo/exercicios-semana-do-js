@@ -9,13 +9,32 @@
 
 const randomNumbers = [10, 30, 15, 25, 50, 40, 5]
 
+const numbersImpar = randomNumbers.filter(item => {
+  if (item % 2 === 1) {
+    return item
+  }
+  else []  
+})
+console.log(numbersImpar)
+
 /*
+
   02
 
   - Exiba no console quantos números abaixo de 501 o array abaixo possui.
 */
 
 const crazyNumbers = [937, 5, 395, 402, 501, 333, 502, 781, 3, 691]
+
+const lower501 = crazyNumbers.filter(item => item < 501)
+
+const howManyMinus501 = crazyNumbers.reduce((acc, item) => {
+  if (item < 501) acc += 1
+  return acc
+}, 0)
+
+console.log(lower501)
+console.log(howManyMinus501)
 
 /*
   03
@@ -27,6 +46,10 @@ const crazyNumbers = [937, 5, 395, 402, 501, 333, 502, 781, 3, 691]
 */
 
 const numbers = [5, 7, 3]
+
+const numbersExp2 = numbers.map(item => item ** 2)
+
+console.log(numbersExp2)
 
 /*
   04
@@ -49,6 +72,11 @@ const tarantinoMovies = [
   { name: 'Kill Bill: Volume 1', release: 2003 }
 ]
 
+const moviesBefore2000 = tarantinoMovies.filter(item => item.release < 2000)
+const onlyMovieNames = moviesBefore2000.map(item => item.name)
+
+console.log(onlyMovieNames)
+
 /*
   05
 
@@ -65,6 +93,10 @@ const tvShows = [
   { name: 'House M.D.', releaseYear: 2004 },
   { name: 'Watchmen', releaseYear: 2019 }
 ]
+
+const nameOfSeries = tvShows.map(item => item.name)
+
+console.log(nameOfSeries)
 
 /*
   06
@@ -84,6 +116,10 @@ const cart = [
   { name: 'Resident Evil 2', price: 119.90 },
   { name: 'Death Stranding', price: 149.99 }
 ]
+
+const formattedList = cart.map(item => `- ${item.name}`).join('\n');
+
+console.log(formattedList);
 
 /*
 - Nome 1
