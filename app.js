@@ -117,6 +117,10 @@ const cart = [
   { name: 'Death Stranding', price: 149.99 }
 ]
 
+const formattedList = cart.map(item => `- ${item.name}`).join('\n');
+
+console.log(formattedList);
+
 /*
 - Nome 1
 - Nome 2
